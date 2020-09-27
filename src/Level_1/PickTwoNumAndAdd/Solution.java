@@ -18,7 +18,6 @@ public class Solution {
 	}
 	
 	private int[] Sorting(ArrayList<Integer> list) {
-		int temp = 0;
 		int c = 0;
 		int[] answer = new int[list.size()];
 		Collections.sort(list);
