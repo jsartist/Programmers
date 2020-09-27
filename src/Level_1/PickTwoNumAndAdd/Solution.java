@@ -31,7 +31,5 @@ public class Solution {
 	public int[] solution(int[] numbers) {
 		ArrayList<Integer> list = Add(numbers);
 		return Sorting(list);
-	}
-	
-	
+	}	
 }
