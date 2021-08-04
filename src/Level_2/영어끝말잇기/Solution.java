@@ -18,12 +18,12 @@ public class Solution {
         	{
         			w.add(words[wordCount]);
         			++co;
-        		}
-        		else {
-        			answer[0] = co % n + 1;
-        			answer[1] = co / n + 1;
-        			co = 2147483647;
-        		}
+        	}
+        	else {
+        		answer[0] = co % n + 1;
+        		answer[1] = co / n + 1;
+        		co = 2147483647;
+        	}
         }
         return answer;
 	}
