@@ -16,8 +16,8 @@ public class Solution {
         			== words[++wordCount].charAt(0))
         			&& w.indexOf(words[wordCount]) == -1)
         	{
-        			w.add(words[wordCount]);
-        			++co;
+        		w.add(words[wordCount]);
+        		++co;
         	}
         	else {
         		answer[0] = co % n + 1;
